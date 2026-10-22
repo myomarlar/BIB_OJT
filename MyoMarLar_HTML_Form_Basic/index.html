@@ -1,0 +1,165 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Practice HTML form with inputs, select menus, checkboxes, and file uploads. Learn web development basics."
+    />
+    <title>HTML_Form_Basic</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <h1>Contact Form (HTML Form Elements Practice)</h1>
+      <!-- NameInput -->
+      <label for="name">Full Name:</label><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        required
+        placeholder="Enter your name"
+      /><br /><br />
+      <!-- EmailInput -->
+      <label for="email">Email Address:</label><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="example@mail.com"
+      /><br /><br />
+
+      <!-- PasswordInput -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        minlength="6"
+        maxlength="12"
+      /><br /><br />
+
+      <!-- PhoneNumber -->
+      <label for="phoneNumber">Phone Number:</label><br />
+      <input
+        type="tel"
+        name="phoneNumber"
+        id="phoneNumber"
+        pattern="(\+?[0-9]{1,4})?[0-9]{9,11}"
+        placeholder="+959956626392"
+      /><br /><br />
+
+      <!-- AgeInput -->
+      <label for="age">Age:</label><br />
+      <input type="number" name="age" id="age" min="1" max="100" /><br /><br />
+
+      <!-- DOB -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" name="dob" id="dob" /><br /><br />
+
+      <!-- TimeInput -->
+      <label for="time">Preferred Contact Time:</label><br />
+      <input type="time" name="time" id="time" /><br /><br />
+
+      <!-- GenderInput -->
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other">Other</label>
+      </fieldset>
+      <br />
+
+      <!-- ServicesInput -->
+      <fieldset>
+        <legend>Services Interested In</legend>
+        <input
+          type="checkbox"
+          name="service[]"
+          id="serviceWeb"
+          value="web"
+          checked
+        />
+        <label for="serviceWeb">Web Development</label><br />
+        <input type="checkbox" name="service[]" id="serviceSEO" value="seo" />
+        <label for="serviceSEO">SEO</label><br />
+        <input type="checkbox" name="service[]" id="serviceUI" value="uiux" />
+        <label for="serviceUI">UI/UX Design</label>
+      </fieldset>
+      <br />
+
+      <!-- Country -->
+      <label for="countrySelect">Country:</label><br />
+      <select
+        class="form-select"
+        aria-label="Default select example"
+        id="countrySelect"
+        name="countrySelect"
+      >
+        <option value="" disabled selected>--- Select Country ---</option>
+        <option value="mm">Myanmar</option>
+        <option value="sg">Singapore</option>
+        <option value="th">Thailand</option></select
+      ><br /><br />
+      <!-- Textarea  -->
+      <label for="userMessage">Your Message:</label><br />
+      <textarea
+        name="message"
+        id="userMessage"
+        rows="5"
+        cols="30"
+        placeholder="Write your message here...."
+      ></textarea
+      ><br /><br />
+
+      <!-- FileInput -->
+      <label for="fileInput">Upload File:</label><br />
+      <input type="file" name="file" id="fileInput" />
+      <br /><br />
+
+      <!-- RateInput -->
+      <label for="rateInput">Rate Our Service:</label><br />
+      <input
+        type="range"
+        name="rate"
+        id="rateInput"
+        min="1"
+        max="5"
+        value="3"
+      /><br /><br />
+
+      <!-- ColorInput -->
+      <label for="colorInput">Favorite Color:</label><br />
+      <input
+        type="color"
+        name="color"
+        id="colorInput"
+        value="#ff0000"
+      /><br /><br />
+
+      <!-- URL -->
+      <label for="url">Website</label> <br />
+      <input type="url" name="url" id="url" placeholder="https://example.com" />
+      <br /><br />
+
+      <input
+        type="hidden"
+        name="hiddenWebsite"
+        id="urlHidden"
+        placeholder="https://hiddleWebsite.com"
+        value="hiddenWebsite"
+      />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button">Normal Button</button>
+    </form>
+  </body>
+</html>
