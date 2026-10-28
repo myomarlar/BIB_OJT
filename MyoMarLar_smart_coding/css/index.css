@@ -3,7 +3,6 @@
 @charset 'utf-8';
 
 .sec-header {
-  width: 1440px;
   padding: 20px 0px;
 }
 .sec-navbar {
@@ -32,9 +31,6 @@
   height: 50px;
 }
 
-.footer-div {
-  width: 1439px;
-}
 .footer-text-left {
   width: 40%;
   margin-top: 15px;
@@ -51,7 +47,19 @@
   width: 40px;
   height: 40px;
 }
-.happy-client-header {
-  width: 1160px;
+.child-happy-client-header .happy-client-header {
   font-family: var(--font-secondary);
+}
+.happy-client-wrap {
+  gap: 30px;
+}
+.child-happy-client-div {
+  padding: 0px 30px;
+}
+.child-happy-client-text {
+  color: #606060;
+  padding: 30px;
+}
+.customer-text {
+  color: #909b99;
 }
