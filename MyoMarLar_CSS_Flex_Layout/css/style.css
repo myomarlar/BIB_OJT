@@ -9,7 +9,7 @@
 }
 .main {
   max-width: 1440px;
-  max-height: 737px;
+  margin-inline: auto;
 }
 .sec-client {
   padding: 100px 140px;
@@ -24,7 +24,7 @@ ul {
 .sec-title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #262626;
   text-align: center;
 }
@@ -32,7 +32,7 @@ ul {
   font-family: "Open Sans", sans-serif;
   max-width: 913px;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #606060;
   margin-inline: auto;
   margin-top: 25px;
@@ -47,7 +47,7 @@ ul {
 
 .trust-list-wrap li {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 22px;
   color: #606060;
 }
@@ -55,12 +55,12 @@ ul {
   margin-top: 24px;
 }
 .partners-wrap {
-  padding: 100px 445px;
+  margin-inline: auto;
 }
 .partners-tlt {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #262626;
   text-align: center;
 }
