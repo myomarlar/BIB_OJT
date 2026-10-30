@@ -5,13 +5,13 @@
 .sec-header {
   padding: 20px 0px;
 }
+
 .sec-navbar {
   max-width: 1160px;
   max-height: 70px;
   border-color: black;
   background-color: green;
 }
-
 .nav-links,
 .nav-wrap {
   gap: 60px;
@@ -21,7 +21,6 @@
 .nav-btn {
   color: #262626;
 }
-
 .nav-btn {
   padding: 15px 8px;
   color: #ffffff;
@@ -29,6 +28,58 @@
   border: none;
   width: 162px;
   height: 50px;
+}
+
+.hero-tlt {
+  font-family: var(--font-secondary);
+  width: 70%;
+  margin-bottom: 24px;
+}
+.hero-text {
+  font-family: var(--font-primary);
+}
+
+.blog-wrap {
+  gap: 33px;
+}
+.blog-tlt {
+  font-family: var(--font-secondary);
+  margin-bottom: 56px;
+  text-align: center;
+}
+.blog-child-tlt {
+  font-family: var(--font-secondary);
+  padding: 16px 19px 10px 19px;
+}
+.blog-text {
+  font-family: var(--font-primary);
+  color: #606060;
+  padding: 10px 19px 20px 19px;
+}
+.blog-text1 {
+  font-family: var(--font-secondary);
+  color: #141414;
+  padding-left: 19px;
+  cursor: pointer;
+}
+
+.sec-contact-us {
+  background-color: #141414;
+  color: #ffffff;
+  padding: 27px 50px;
+}
+.contact-us-tlt {
+  font-family: var(--font-secondary);
+  color: #ffffff;
+}
+.contact-us-text {
+  font-family: var(--font-primary);
+}
+.contact-us-btn {
+  font-family: var(--font-primary);
+  background-color: #ffffff;
+  color: #141414;
+  padding: 11.5px 28.5px;
 }
 
 .footer-text-left {
@@ -47,6 +98,7 @@
   width: 40px;
   height: 40px;
 }
+
 .child-happy-client-header .happy-client-header {
   font-family: var(--font-secondary);
 }
@@ -62,4 +114,14 @@
 }
 .customer-text {
   color: #909b99;
+}
+.left-arrow::before {
+  content: url(../img/left-arrow.svg);
+  padding-right: 30px;
+  cursor: pointer;
+}
+.right-arrow::after {
+  content: url(../img/right-arrow.svg);
+  padding-left: 30px;
+  cursor: pointer;
 }
