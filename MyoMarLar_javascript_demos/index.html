@@ -1,0 +1,48 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript_Demos Assignment | BIB OJT course</title>
+    <meta
+      name="description"
+      content="Online web development course with assignments, mini projects, and a main project in frontend and backend programming."
+    />
+    <meta name="keywords" content="mini projects, frontend, backend" />
+    <meta
+      property="og:title"
+      content="JavaScript Assignment | BIB OJT course"
+    />
+    <meta
+      property="og:description"
+      content="Online web development course with assignments, mini projects, and a main project in frontend and backend programming."
+    />
+    <meta property="og:image" content="image/logo.png" />
+    <meta property="og:type" content="JavaScript" />
+    <meta property="og:url" content="https://www.cssminiproject.com" />
+    <meta property="og:site_name" content="javaScript Demo" />
+
+    <link rel="shortcut icon" href="./img/img-logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>JavaScript Assignment | BIB OJT course</h1>
+    <p id="demo"></p>
+    <h2>JavaScript HTML DOM</h2>
+    <p>Finding HTML Elements by Tag Name.</p>
+    <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+
+    <p id="demo1"></p>
+
+    <script>
+      const myPara = document.getElementById("demo");
+      myPara.innerHTML = "Hello World!";
+
+      const element = document.getElementsByTagName("p");
+      document.getElementById("demo1").innerHTML =
+        "The first paragraph (index 0) is: " + element[0].innerHTML;
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
