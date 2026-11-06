@@ -1,0 +1,113 @@
+/**
+ * JQuery Toggle Menu
+ *
+ * @format
+ */
+
+@import "https://fonts.googleapis.com/css?family=Nunito|Russo+One";
+
+#menu {
+  display: none;
+}
+
+#menu > ul {
+  list-style-type: none;
+  display: block;
+  line-height: 2;
+  font-family: "Russo One", sans-serif;
+  background-color: #837ad3;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+  width: 20%;
+  font-size: 130%;
+  border-radius: 10px;
+  z-index: 1;
+  margin-top: 0px;
+  float: left;
+}
+
+.start {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #837ad3;
+  color: #13085e;
+  font-size: 130%;
+  font-weight: bold;
+  float: right;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #13085e;
+}
+
+a:hover {
+  color: pink;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #052b59;
+  z-index: -1;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #719bcd;
+}
+
+p {
+  float: left;
+  margin: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Tap Jquery */
+.tabs {
+  width: 600px;
+  background-color: #09f;
+  border-radius: 5px 5px 5px 5px;
+}
+
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #08e;
+}
+
+#tabs-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tab-content {
+  padding: 10px;
+  border: 5px solid #09f;
+  background-color: #fff;
+}
+
+.tap-jquery {
+  margin-bottom: 200px;
+}
